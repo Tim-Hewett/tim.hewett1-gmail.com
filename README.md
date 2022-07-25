@@ -11,11 +11,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-The important calculation is the following:
+The important calculation to compare the Cost Effectiveness of Procedure A versus Procedure B is the following:
 
-("The total outcome score of procedure A" == ("final Quality of Life or QoLY score for Procedure A" * "final Functional Rating or IKDC or Marx score for Procedure A" / "surgical time for procedure A" 8 Tunnel widening for (in mm) for Procedure A" * "total return to work or play or RTS time in weeks for Procedure A"))
+("The total outcome score of procedure A" == ("final Quality of Life or QoLY score for Procedure A" * "final Functional Rating or IKDC or Marx score for Procedure A" / "surgical time for procedure A (in Minutes)" * Tunnel widening for (in mm) for Procedure A" * "total return to work or play or RTS time in weeks for Procedure A"))
 RTStA = ("total return to work or play or RTS time in weeks for Procedure A")
-print("The total outcome score procedure B" == ("final Quality of Life or QoLY score for Procedure B" * "final Functional Rating or IKDC or Marx score for Procedure B" / "surgical time for procedure B" 8 Tunnel widening for (in mm) for Procedure B" * "total return to work or play or RTS time in weeks for Procedure B"))
+print("The total outcome score procedure B" == ("final Quality of Life or QoLY score for Procedure B" * "final Functional Rating or IKDC or Marx score for Procedure B" / "surgical time for procedure B (in Minutes)" * Tunnel widening for (in mm) for Procedure B" * "total return to work or play or RTS time in weeks for Procedure B"))
 RTStB = ("total return to work or play or RTS time in weeks for Procedure B")
 
 
