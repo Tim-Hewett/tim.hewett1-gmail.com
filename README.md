@@ -3,9 +3,9 @@ Tim Hewett Sportsmedicine &amp; Sports SCIENCE Biomechanics Projects
 
 This is Our Simple Cost Effectiveness Analysis Python Project.
 
-The goal of this project is to develop a simple and straight-forward program for running a cost effectiveness analysis for doing comparisons of different orthopaedic and sports medicine treatments. A secondary goal is to bypass compex Bayesian biostatistical analyses that most clinical prectitioners cannot do or understand. 
+The goal of this project is to develop a simple and straight-forward program for running a cost effectiveness analysis for comparisons of different orthopaedic and sports medicine treatment procedures. A secondary goal is to bypass compex Bayesian biostatistical analyses that most clinical prectitioners cannot perform or may not fully understand. 
 
-In order to run this code you need to first import these 3 libraries in this manner:
+In order to run this code you will need to first import these 3 libraries in this manner:
 
 import pandas as pd
 import numpy as np
